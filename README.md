@@ -48,22 +48,22 @@ dripsv4/
 │   ├── lib/
 │   │   ├── config.js                    # Zod-validated environment config (single source of truth)
 │   │   │
-│   │   ├── connection
+│   │   ├── connection/
 │   │   │   ├── manager.js               # Advanced Connection Lifecycle & Event Manager
 │   │   │   ├── socket.js                # Baileys socket factory & pairing code flow
 │   │   │   └── auth.js                  # Multi-auth state management for sessions
 │   │   │
-│   │   ├── loaders
+│   │   ├── loaders/
 │   │   │   ├── middlewareLoader.js      # Hot-reload middleware manager with chokidar
 │   │   │   └── pluginLoader.js          # Hot-reload plugin manager with chokidar
 │   │   │
-│   │   ├── messaging
+│   │   ├── messaging/
 │   │   │   ├── serializer.js            # Production-grade Message Serializer and Device Detector
 │   │   │   ├── humanizer.js             # Anti-detection: Gaussian delays, typing sim, read receipts
 │   │   │   ├── queue.js                 # Per-chat FIFO message queue with concurrency control
 │   │   │   └── ui.js                    # Device-aware message UI builder
 │   │   │
-│   │   ├── storage
+│   │   ├── storage/
 │   │   │   └── store.js                 # Redis / MapStore unified storage factory
 │   │   │
 │   │   └── utils/
