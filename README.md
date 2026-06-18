@@ -5,7 +5,7 @@
 
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![ESM](https://img.shields.io/badge/Module-ESM-blue)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
-[![License](https://img.shields.io/badge/License-ISC-green)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ---
 
