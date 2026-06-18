@@ -1,0 +1,27 @@
+{
+  "name": "drips",
+  "version": "1.0.0",
+  "description": "Drips — Production-grade WhatsApp automation engine",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ONESKYLUNAR",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@innovatorssoft/baileys": "github:innovatorssoft/Baileys",
+    "async-mutex": "^0.5.0",
+    "chokidar": "^5.0.0",
+    "dotenv": "^17.4.2",
+    "pino": "^10.3.1",
+    "redis": "^6.0.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "typescript": "^6.0.3"
+  }
+}
